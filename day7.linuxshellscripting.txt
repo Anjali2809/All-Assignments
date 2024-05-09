@@ -1,0 +1,313 @@
+why we need linux...?
+-----------------------
+ ->open source Operation System.
+ ->run faster  ( in windows, it needs to load grahics,)
+ ->high security
+
+===============================================
+what is linux:-
+---------------- 
+   It is an open source community developed os.
+    founded by Linus Torvald.
+
+=======================================================
+
+what is kernel..?
+-------------------
+   ->It is intermediate between the os and CLI.
+   ->Kernel is responsible for managing system resource, cup, hardware,...
+   
+   => why we need shell scripting...?
+     -------------------------------- 
+          It is used to automate the task in the linux/unit environment.
+              like 
+                1. system monitoring 
+                2. system resource allocation.
+                3. backup of files.
+
+   Note:-
+   ------
+     -> user communicate with the os, through a program called shell. 
+=========================================================================
+basic commands:-
+-----------------
+cd 
+pwd 
+ls  (with different flag).
+mkdir 
+cp 
+mv 
+rm
+cat 
+touch 
+grep 
+echo 
+man 
+head 
+tail 
+less
+sort 
+uniq
+...... 
+========================================================
+copy and move:-
+----------------
+cp 
+mv
+========================================================
+chmod:-  chnage mode.
+-------
+       -> It is used to alter the file permission associated with the file.
+
+to chnages the file permission, we have different level of numbers 
+from 0 to 7 
+
+ 0 =0 => nothing
+ 1 =1 => execute
+ 2 =2 => write 
+ 3 =2+1 =>write + execute
+ 4 = 4  => read
+ 5 => 4+1 => read + execute
+ 6 => 4+2 => read + write
+ 7 => 4+2+1 => read + write + execute. 
+
+============================================================
+what is Linux Shell:-
+----------------------
+  Linux is a command line interface, It allows the user to interact
+  to linux os by typing some commands.
+
+
+  Shell is a very powerful component of any Linux distribution
+  that takes text commands from the user, interprets them,
+  and interacts with system utilities and apps. As a result,
+  you can carry out a long list of activities, such as creating files,
+  monitoring processes, downloading files from the Internet, 
+  and creating a database and text processing without leaving the shell. 
+
+what is shell scripting...?
+-----------------------------
+ --> In shell script the list of commands are executed. 
+ --> It makes the automate process.
+============================================================ 
+Bash shell --> Bourne Again shell, 
+               It is the improved version of sh (Bourne shell)
+
+=================================================================
+Variables:-
+------------
+like other programming language , variable is used to store the value.
+variable can contain (a to z or A to z ) and number (o to 9).
+
+ i. readonly variable.
+ 2. unset variable.
+
+readonly variable:-
+--------------------
+   ->It is same like static in other programming language.
+   -> once we declare the variable value, we cannot modify it.
+
+unset variable:-
+--------------------
+    -> if we want to delete or remove the variable then we can use unset command.
+
+ system variable:-
+ -----------------
+  path
+  pwd 
+  date,...
+
+======================================================================
+user input:-
+--------------
+read 
+Prompt String (-p)
+=====================================================================
+condition stmt:-
+-----------------
+  it checks for the condition, based on the condition , if its true it will
+  execute the if block.
+  for false it will execute else block.
+     1. if-then-fi 
+     2. if-then-else-fi
+     3. if-then-elif-then-else-fi   (else if ladder)
+     4. nested if 
+
+1. if-then-fi 
+     if[condition]
+     then 
+       stmt 1 
+       stmt 2 
+     fi      --------> end of the if      
+
+===========================================================
+commonly used operator
+----------------------
+   string1=string2 ---> true if both the string are equal.
+   string1 !=string2 --> true, if both string are not equal.
+
+   -eq 
+   -gt 
+   -lt 
+   -ge 
+   -le 
+   ! 
+   && 
+
+   -r File -->true if is file exist and it is readiable 
+   -w File  -->true if the file exists and writeable
+   -x file  --> execute 
+   -e file --> true if the file exists.
+
+==========================================================
+function:-
+------------ 
+  ->function is a block of code, which we can define, and call 
+  where ever we want. 
+
+     syntax:-
+     --------
+       function_name()
+       {
+          # body of the function.
+       }
+
+    
+    eg:-
+    -----
+      # function without parameter.
+       greet()
+       {
+        echo "welcome all"
+       }
+
+      #function call 
+       greet
+
+=============================================================
+task 1:-
+------  
+    --> count the number of lines present in the file. 
+        wc -l 
+    
+    --> print the file data line by line.    
+
+===============================================================
+Arrays:-
+-------- 
+  # varaible  ---> single values.
+  name="sachin"  
+   
+  ->to store collection values in a single variable we use arrays.
+  
+  ->In Array the elements are stored in index, the index always 
+  start from 0.
+
+ syntax to create an array:-
+ ---------------------------
+    array_name=(value1 value2 value3 ...)
+
+ syntax to access Arrayelement:-
+ -------------------------------
+     ${array_name[index_number]}.   
+
+
+  2.Associate array:-
+  ----------------- 
+    It is like a key value.
+      ->m - 38
+      ->l - 39
+      ->xl -40 
+
+      india - delhi. 
+      usa - washington. 
+      franch - paris.
+
+    sytax:-
+    -------
+    decalre -A array_name.
+
+==========================================================
+
+4 batches:-
+-------------
+SDLC          ---------> team 1 (15 mts).
+GIT & Github   --------> team 2 
+Linux commands  -------> team 3
+Shell Scripting  ------> team 4
+
+==========================================================
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
